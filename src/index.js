@@ -14,6 +14,7 @@ root.render(
    <Router>
     <Navbar/>
     <p>HELLO WELCOME</p>
+    <P>THIS IS TRAINING</P>
     <Routes>
       <Route path="/register" element={<Register/>}/>
       <Route path="/login" element={<Login/>}/>
